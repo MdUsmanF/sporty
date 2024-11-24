@@ -4,10 +4,7 @@ import { useParams } from 'react-router-dom';
 
 function Players() {
   const { teamId } = useParams();
-  const [team, setTeam] = useState(null);
   const [players, setPlayers] = useState([]);
-  const [competitions, setCompetitions] = useState([]);
-  const [matches, setMatches] = useState([]);
 
   useEffect(() => {
     const fetchTeamDetails = async () => {
