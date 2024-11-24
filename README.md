@@ -88,19 +88,6 @@ cd frontend
 npm run lint
 ```
 
-## Project Structure
-
-- `backend/`: Contains Flask application
-  - `app/`: Application code
-  - `tests/`: Test files
-  - `requirements.txt`: Python dependencies
-  
-- `frontend/`: Contains React application
-  - `src/`: Source code
-  - `public/`: Static files
-  - `components/`: Reusable React components
-  - `pages/`: Page components
-
 ## Features
 
 - View all football teams

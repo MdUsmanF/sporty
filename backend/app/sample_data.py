@@ -50,6 +50,12 @@ COMPETITIONS = [
     {'id': 2, 'name': 'Premier League', 'country': 'England', 'type': 'Club'},
     {'id': 3, 'name': 'La Liga', 'country': 'Spain', 'type': 'Club'},
     {'id': 4, 'name': 'Bundesliga', 'country': 'Germany', 'type': 'Club'},
+    {'id': 5, 'name': 'Serie A', 'country': 'Italy', 'type': 'Club'},
+    {'id': 6, 'name': 'Ligue 1', 'country': 'France', 'type': 'Club'},
+    {'id': 7, 'name': 'Copa del Rey', 'country': 'Spain', 'type': 'Club'},
+    {'id': 8, 'name': 'DFB-Pokal', 'country': 'Germany', 'type': 'Club'},
+    {'id': 9, 'name': 'FIFA World Cup', 'country': 'World', 'type': 'International'},
+    {'id': 10, 'name': 'UEFA European Championship', 'country': 'Europe', 'type': 'International'},
 ]
 
 def generate_match_date():
