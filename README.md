@@ -9,11 +9,9 @@ A full-stack web application built with React and Flask.
 - Vite
 - Tailwind CSS
 - Node.js
-- Docker
 
 ### Backend
 - Flask (Python)
-- Docker
 
 ## 📁 Project Structure
 ```
@@ -81,51 +79,14 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Start Flask server
-# On Windows:
-set FLASK_APP=run.py
-set FLASK_ENV=development
-flask run
-
-# On macOS/Linux:
-export FLASK_APP=run.py
-export FLASK_ENV=development
-flask run
+# Run Backend server
+python3 run.py
 ```
 
 ## 🌐 Accessing the Application
 
 - Frontend: http://localhost:5173
-- Backend API: http://localhost:5000
-
-## 🔧 Development
-
-### Frontend Development Commands
-```bash
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-
-# Run linting
-npm run lint
-```
-
-### Backend Development Commands
-```bash
-# Run Flask development server
-python run.py
-
-# Run with debug mode
-flask run --debug
-
-# Run with specific host/port
-flask run --host=0.0.0.0 --port=5000
-```
+- Backend API: http://127.0.0.1:5000/api/<route>
 
 ## 🐳 Docker Commands
 
