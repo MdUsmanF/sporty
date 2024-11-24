@@ -1,4 +1,4 @@
-# Football Management System
+# Sporty
 
 A full-stack application for managing football teams, matches, and competitions.
 
@@ -54,50 +54,11 @@ npm run dev
 docker-compose up --build
 ```
 
-## API Documentation
-
-The API documentation is available at `http://localhost:5000/api/docs` when running the backend server.
-
-## Running Tests
-
-### Backend Tests
-```bash
-cd backend
-pytest
-```
-
-### Frontend Tests
-```bash
-cd frontend
-npm test
-```
-
-## Linting
-
-### Backend Linting
-```bash
-cd backend
-flake8
-```
-
 ### Frontend Linting
 ```bash
 cd frontend
 npm run lint
 ```
-
-## Project Structure
-
-- `backend/`: Contains Flask application
-  - `app/`: Application code
-  - `tests/`: Test files
-  - `requirements.txt`: Python dependencies
-  
-- `frontend/`: Contains React application
-  - `src/`: Source code
-  - `public/`: Static files
-  - `components/`: Reusable React components
-  - `pages/`: Page components
 
 ## Features
 
