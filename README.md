@@ -2,6 +2,9 @@
 
 A full-stack web application built with React and Flask.
 
+## App Preview
+https://www.loom.com/share/e1b4f736a2a44e1d9ac846f9c72db6f8?sid=f0e762eb-29d3-4a83-b20a-c26facdaae44
+
 ## 🚀 Tech Stack
 
 ### Frontend
@@ -44,6 +47,9 @@ cd sporty
 ```
 
 2. Build and run with Docker Compose:
+
+First Run Docker Desktop
+
 ```bash
 docker-compose up --build
 ```
