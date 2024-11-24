@@ -5,15 +5,13 @@ A full-stack application for managing football teams, matches, and competitions.
 ## Tech Stack
 
 - Backend: Python + Flask
-- Frontend: React + ShadCN + TailwindCSS
+- Frontend: React + TailwindCSS
 - Database: SQLite3
-- Containerization: Docker
 
 ## Prerequisites
 
 - Python 3.8+
 - Node.js 16+
-- Docker and Docker Compose
 
 ## Project Setup
 
