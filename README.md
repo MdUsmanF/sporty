@@ -1,19 +1,17 @@
-# Football Management System
+# Sporty
 
 A full-stack application for managing football teams, matches, and competitions.
 
 ## Tech Stack
 
 - Backend: Python + Flask
-- Frontend: React + ShadCN + TailwindCSS
+- Frontend: React + TailwindCSS
 - Database: SQLite3
-- Containerization: Docker
 
 ## Prerequisites
 
 - Python 3.8+
 - Node.js 16+
-- Docker and Docker Compose
 
 ## Project Setup
 
@@ -54,32 +52,6 @@ npm run dev
 1. Build and run all services:
 ```bash
 docker-compose up --build
-```
-
-## API Documentation
-
-The API documentation is available at `http://localhost:5000/api/docs` when running the backend server.
-
-## Running Tests
-
-### Backend Tests
-```bash
-cd backend
-pytest
-```
-
-### Frontend Tests
-```bash
-cd frontend
-npm test
-```
-
-## Linting
-
-### Backend Linting
-```bash
-cd backend
-flake8
 ```
 
 ### Frontend Linting
